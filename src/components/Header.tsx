@@ -15,7 +15,7 @@ export const Header = () => {
         navigate('/')
     }
 
-    return(
+    return (
         <Flex backgroundColor='orange' padding='5px'>
             <Box className='header' width="100%">
                 <Text fontSize='3xl'>
@@ -24,12 +24,12 @@ export const Header = () => {
             </Box>
             <Spacer />
             {
-            isLoggedIn &&
-            <Button onClick={() => logout()} colorScheme='red'>
-            Sair
-            </Button>
+                isLoggedIn &&
+                <Button onClick={() => logout()} colorScheme='red'>
+                    Sair
+                </Button>
             }
-            
+
         </Flex>
     )
 }

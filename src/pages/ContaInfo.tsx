@@ -17,4 +17,4 @@ const ContaInfo = () => {
     )
 }
 
-export default ContaInfo
+export default ContaInfo;
